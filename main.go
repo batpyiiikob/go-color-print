@@ -1,11 +1,9 @@
 package main
 
-import (
-	mess "main/internal"
-)
+import "main/internal/mess"
 
 func main() {
-
+  
 	opt1 := mess.Options{
 		Type:   mess.I,
 		Prefix: mess.P_MESS,
