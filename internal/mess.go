@@ -34,7 +34,6 @@ type Options struct {
 
 func Print(opt Options, data ...interface{}) {
 	printPrefix(opt)
-
 	var i int = 0
 	for _, v := range data {
 		fmt.Print(opt.Type, v, Reset)
